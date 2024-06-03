@@ -66,7 +66,7 @@ class TestDataStructures:
 
     def test_get_average_heat_level(self):
         '''contains function get_average_heat_level that returns average of heat_levels in spicy_foods.'''
-        assert(get_average_heat_level(TestDataStructures.SPICY_FOODS) == 6)
+        assert(get_average_heat_level(TestDataStructures.SPICY_FOODS) == 6.0)
 
     def test_create_spicy_food(self):
         '''contains function create_spicy_food that returns original list of spicy_foods with new spicy_food added.'''
